@@ -8,6 +8,19 @@ background-position: center;
 color: rgba(255,255,255,0.7);
 }
 
+.logo {
+/*color: rgba(62,62,62,0.7);*/
+padding-top: 15px;
+padding-left: 10px;
+text-align: left;
+}
+
+a#logo {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
 header {
   text-align: center;
   padding-bottom: 20px;
@@ -60,10 +73,14 @@ a {
 }
 
 /* visited link */
-a:visited {
-  /*color: rgb(252, 134, 225);*/
+/*a:visited {
+  color: yellow;
   text-decoration: none;
 }
+a#li:visited {
+  color: yellow;
+  text-decoration: none;
+}*/
 
 /* mouse over link */
 a#li:hover {
@@ -72,7 +89,7 @@ a#li:hover {
 }
 
 a:hover {
- color: rgb(252, 134, 225);
+ color: yellow;
  text-decoration: underline;
 }
 
