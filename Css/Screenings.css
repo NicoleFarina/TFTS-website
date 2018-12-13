@@ -1,10 +1,10 @@
 body {
 font-family: "Abel";
 /*background: rgba(0,0,0,0.9);*/
-background-image: url("../Images/Lost Highway.jpg"), url("../Images/Lost Highway.jpg");
+background-image: url("../Images/background.jpg");
 background-size: cover;
 background-position: center;
-background-blend-mode: multiply;
+/*background-blend-mode: multiply;*/
 color: rgba(255,255,255,0.7);
 }
 
@@ -48,8 +48,13 @@ article {
   margin: 5px;
 }
 
-a {
+a#li {
   /* unvisited link */
+  color: rgb(252, 134, 225);
+  text-decoration: none;
+}
+
+a {
   color: yellow;
   text-decoration: none;
 }
@@ -61,9 +66,14 @@ a:visited {
 }
 
 /* mouse over link */
+a#li:hover {
+ color: yellow;
+ text-decoration: underline;
+}
+
 a:hover {
-  color: rgb(252, 134, 225);
-  text-decoration: underline;
+ color: rgb(252, 134, 225);
+ text-decoration: underline;
 }
 
 /* selected link */
