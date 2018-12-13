@@ -67,7 +67,7 @@ margin-top: 0;
 	height: 200px;
 	margin: 0;
 	width: 100%;
-  padding: 5px;
+  /*padding: 20px;*/
   border-width: 2px;
   border: white;
   align-items: center;
@@ -78,6 +78,7 @@ margin-top: 0;
   background: rgb(255,255,255,0.15);
   background-position: center;
   background-size: auto;
+  padding: 10px;
 }
 
 .accademic {
