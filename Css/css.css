@@ -40,7 +40,7 @@ ul {
 }
 li {
 	display: block;
-	background-color: rgb(90,105,118,0.5);
+	background-color: rgb(255,255,255,0.25);
 	padding: 10px;
 	margin: 10 px;
 	margin: 0 40px 0 40px;
@@ -90,7 +90,7 @@ margin-top: 0;
 }
 
 .content {
-  background: rgb(90,105,118,0.7);
+  background: rgb(255,255,255,0.15);
   background-position: center;
   background-size: auto;
 }
