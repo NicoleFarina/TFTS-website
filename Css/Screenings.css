@@ -56,13 +56,13 @@ a {
 
 /* visited link */
 a:visited {
-  color: rgb(252, 134, 225);
+  /*color: rgb(252, 134, 225);*/
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: yellow;
+  color: rgb(252, 134, 225);
   text-decoration: underline;
 }
 
